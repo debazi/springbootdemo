@@ -1,4 +1,5 @@
 package com.example.controller;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,7 +12,7 @@ public class RestAPIController {
     /**
      * @return xxxxxxxxxxxxxxx
      */
-    @RequestMapping("/api/helloworld")
+    @RequestMapping("/")
     public String findAll () {
         return "Hello World!";
     }
